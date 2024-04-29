@@ -15,6 +15,7 @@ To install the dependencies required for this project, run the following command
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Acknowledgements
 
