@@ -16,7 +16,7 @@ To install the dependencies required for this project, run the following command
 ```bash
 pip install -r requirements.txt
 ```
-### Download and Preprocessing ABIDE Data 
+### Download and Preprocess ABIDE Data 
 
 ```bash
 python fetch_data.py --cfg configs/download_abide.yaml
