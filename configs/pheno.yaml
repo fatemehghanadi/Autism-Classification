@@ -1,0 +1,9 @@
+DATASET:
+  ROOT: "data/brain"
+  DOWNLOAD: False
+  PHENO_ONLY: True
+METHOD:
+  MODEL: "raw"
+  CONNECTIVITY: "TPE"
+  LOSO: False
+  SEED: 81199

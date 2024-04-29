@@ -1,0 +1,7 @@
+DATASET:
+  ROOT: "brain/qc"
+  QC: True
+  DOWNLOAD: False
+OUTPUT:
+  ROOT: "brain/qc"
+  OUT_PATH: "brain/qc/ABIDE_pcp/cpac/filt_noglobal/"
