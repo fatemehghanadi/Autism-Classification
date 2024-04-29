@@ -9,3 +9,7 @@ The framework achieves state-of-the-art performance, with an Area Under the Curv
 
 ![Ovaral Pipeline](pipeline.png)
 
+## Acknowledgements
+
+This project is built upon the code from [
+fMRI-site-adaptation]() by [Original Author]([link_to_original_author](https://github.com/kundaMwiza/fMRI-site-adaptation)). I utilized their MIDA and Tangent Pearson Embedding and made modifications to suit the requirements of my project.
