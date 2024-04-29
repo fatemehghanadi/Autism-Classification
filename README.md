@@ -7,5 +7,5 @@ The workflow begins with wavelet transform to extract frequency levels from Bloo
 
 The framework achieves state-of-the-art performance, with an Area Under the Curve (AUC) metric of 79.01% and an accuracy rate of 72.47%.
 
-![GitHub Logo]("C:\Users\Tandi\Pictures\Screenshots\git_pipeline.png")
+![Description of the image](C:\Users\Tandi\Pictures\Screenshots\git_pipeline.png)
 
