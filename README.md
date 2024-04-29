@@ -9,6 +9,13 @@ The framework achieves state-of-the-art performance, with an Area Under the Curv
 
 ![Ovaral Pipeline](pipeline.png)
 
+### Installation
+
+To install the dependencies required for this project, run the following command:
+
+```bash
+pip install -r requirements.txt
+
 ## Acknowledgements
 
 This project is built upon the code from [
