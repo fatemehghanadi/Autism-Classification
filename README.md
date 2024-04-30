@@ -43,7 +43,7 @@ python fetch_data.py --cfg configs/download_abide.yaml
    - After downloading, unzip the files and add the `./data` folder to your project directory.
 
 3. **Train The Model:**
-   - adjust the training parameters in the `./config.py` file before running the command.
+   - Adjust the training parameters in the `./config.py` file before running the command.
    
 ```bash
 python run_model.py --cfg configs/run_default.yaml
