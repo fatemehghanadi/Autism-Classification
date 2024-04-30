@@ -59,9 +59,9 @@ def main():
 
     # # Download database files
     phenotype_file = os.path.join(root_dir, "ABIDE_pcp/Phenotypic_V1_0b_preprocessed1.csv")
-    # if download or not os.path.exists(phenotype_file):
-    #     datasets.fetch_abide_pcp(data_dir=root_dir, pipeline=pipeline, band_pass_filtering=True,
-    #                              global_signal_regression=False, derivatives=files, quality_checked=cfg.DATASET.QC)
+    if download or not os.path.exists(phenotype_file):
+         datasets.fetch_abide_pcp(data_dir=root_dir, pipeline=pipeline, band_pass_filtering=True,
+                                  global_signal_regression=False, derivatives=files, quality_checked=cfg.DATASET.QC)
 
     phenotype_df = reader.get_phenotype(phenotype_file)
 
