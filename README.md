@@ -34,8 +34,10 @@ nilearn.datasets.fetch_abide_pcp(data_dir="./data", pipeline="cpac", band_pass_f
 python fetch_data.py --cfg configs/download_abide.yaml
 ```
 
+Make sure to adjust the parameters in the `./config.py` file according to your preprocessing needs before running the command.
+
 2. **Use Preprocessed Data and Functional Connectivity Matrix:**
-   - Alternatively, preprocessed data and the Functional Connectivity matrix are available at [this link]([insert_link_here](https://drive.google.com/file/d/1sTlyMm1K9nC6B-6_mncN5Urv62B70GJi/view?usp=sharing)).
+   - Alternatively, preprocessed data and the Functional Connectivity matrix are available at [this link]([https://drive.google.com/file/d/1sTlyMm1K9nC6B-6_mncN5Urv62B70GJi/view?usp=sharing]).
    - After downloading, unzip the files and add the './data' folder to your project directory.
 
 ## Acknowledgements
