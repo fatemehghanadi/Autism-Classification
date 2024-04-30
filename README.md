@@ -17,9 +17,9 @@ To install the dependencies required for this project, run the following command
 pip install -r requirements.txt
 ```
 ### Download and Preprocess ABIDE Data 
-<img src="./abide_distribution.png" alt="ABIDE Distribution" width="400" height="300">
+<img src="./abide_distribution.png" alt="ABIDE Distribution" width="400" >
 
-![ABIDE Distribution](abide_distribution.png)
+
 You have the option to either download and preprocess the data yourself or utilize preprocessed data and the Functional Connectivity matrix available at the provided link. After downloading, unzip the files and add the './data' folder to your project directory.
 
 You have two options for accessing and preprocessing the data for this project:
