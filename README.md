@@ -23,7 +23,7 @@ You have the option to either download and preprocess the data yourself or utili
 You have two options for accessing and preprocessing the data for this project:
 
 1. **Download and Preprocess Data Yourself:**
-   - If you prefer to handle the data preprocessing, you can donload the raw data and preprocess it according to your requirements:
+   - If you prefer to handle the data preprocessing, you can donload the raw data and     preprocess it according to your requirements:
 ```python
 import nilearn
 nilearn.datasets.fetch_abide_pcp(data_dir="./data", pipeline="cpac", band_pass_filtering=True,
@@ -36,10 +36,16 @@ python fetch_data.py --cfg configs/download_abide.yaml
 ```
 
 
-
 2. **Use Preprocessed Data and Functional Connectivity Matrix:**
    - Alternatively, preprocessed data and the Functional Connectivity matrix are available at [this link](https://drive.google.com/file/d/1sTlyMm1K9nC6B-6_mncN5Urv62B70GJi/view?usp=sharing).
    - After downloading, unzip the files and add the `./data` folder to your project directory.
+
+3. **Train The Model:**
+   - adjust the training parameters in the `./config.py` file before running the command.
+   
+```bash
+python run_model.py --cfg configs/run_default.yaml
+```
 
 ## Acknowledgements
 
