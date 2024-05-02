@@ -39,7 +39,7 @@ python fetch_data.py --cfg configs/download_abide.yaml
 
 
 2. **Use Preprocessed Data and Functional Connectivity Matrix:**
-   - Alternatively, preprocessed data and the Functional Connectivity matrix are available at [this link](https://drive.google.com/file/d/1sTlyMm1K9nC6B-6_mncN5Urv62B70GJi/view?usp=sharing).
+   - Alternatively, preprocessed data and the Functional Connectivity matrix are available at [this link](https://drive.google.com/file/d/1494EmTGGCQnU17R7SCeXXQUdQ448Dirr/view?usp=sharing).
    - After downloading, unzip the files and add the `./data` folder to your project directory.
 
 3. **Train The Model:**
