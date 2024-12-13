@@ -52,4 +52,4 @@ python run_model.py --cfg configs/run_default.yaml
 ## Acknowledgements
 
 This project is built upon the code from [
-fMRI-site-adaptation]() by [Mwiza Kunda]([link_to_original_author](https://github.com/kundaMwiza/fMRI-site-adaptation)). I utilized their MIDA and Tangent Pearson Embedding and made modifications to suit the requirements of my project.
+fMRI-site-adaptation](https://github.com/kundaMwiza/fMRI-site-adaptation) by [Mwiza Kunda]([link_to_original_author](https://github.com/kundaMwiza/fMRI-site-adaptation)). I utilized their MIDA and Tangent Pearson Embedding and made modifications to suit the requirements of my project.
